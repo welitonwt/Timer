@@ -1,4 +1,4 @@
-import { HistoryContainer, HistoryList } from './styled'
+import { HistoryContainer, HistoryList, Status } from './styled'
 
 export function History() {
   return (
@@ -20,37 +20,49 @@ export function History() {
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="green">Complete</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="yellow">In progress</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="red">Interrupted</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="green">Complete</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="yellow">In progress</Status>
+              </td>
             </tr>
             <tr>
               <td>Task</td>
               <td>20 minutes</td>
               <td>2 month</td>
-              <td>Complete</td>
+              <td>
+                <Status statusColor="red">Interrupted</Status>
+              </td>
             </tr>
           </tbody>
         </table>
